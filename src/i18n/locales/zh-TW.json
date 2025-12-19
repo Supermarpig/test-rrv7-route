@@ -1,0 +1,103 @@
+{
+  "common": {
+    "welcome": "歡迎",
+    "changeLanguage": "切換語言",
+    "currentLanguage": "當前語言",
+    "home": "首頁",
+    "about": "關於",
+    "contact": "聯絡",
+    "products": "產品",
+    "services": "服務",
+    "blog": "部落格",
+    "faq": "常見問題"
+  },
+  "home": {
+    "title": "首頁",
+    "description": "這是一個 React 19 + React Router v7 + i18next 示範",
+    "counter": "計數為 {{count}}",
+    "clickButton": "點擊按鈕增加計數",
+    "metaDescription": "使用 React 19、React Router v7 和 i18next 建立的多語系應用程式示範"
+  },
+  "about": {
+    "title": "關於頁面",
+    "description": "此專案展示了支援 7 種語言的多語系功能",
+    "metaDescription": "了解我們的多語系 React 應用程式，支援 7 種語言"
+  },
+  "contact": {
+    "title": "聯絡頁面",
+    "description": "與我們聯繫",
+    "metaDescription": "聯絡我們獲取更多資訊"
+  },
+  "products": {
+    "title": "產品頁面",
+    "description": "瀏覽我們的產品系列",
+    "metaDescription": "探索我們完整的產品系列和解決方案",
+    "listTitle": "熱門產品",
+    "product1": "React 開發工具包 - 完整的開發解決方案",
+    "product2": "多語系管理系統 - 輕鬆管理多種語言",
+    "product3": "SEO 優化套件 - 提升搜尋引擎排名"
+  },
+  "services": {
+    "title": "服務頁面",
+    "description": "我們提供專業的開發服務",
+    "metaDescription": "專業的網頁開發、多語系整合和 SEO 優化服務",
+    "service1": {
+      "title": "UI/UX 設計",
+      "description": "打造美觀且易用的使用者介面"
+    },
+    "service2": {
+      "title": "前端開發",
+      "description": "使用最新技術開發高效能網頁應用"
+    },
+    "service3": {
+      "title": "行動應用開發",
+      "description": "跨平台行動應用程式開發"
+    }
+  },
+  "blog": {
+    "title": "部落格",
+    "description": "閱讀我們的最新文章和技術分享",
+    "metaDescription": "技術文章、開發教學和最佳實踐分享",
+    "backToList": "返回文章列表",
+    "notFound": "找不到文章",
+    "post1": {
+      "title": "React 19 新特性介紹",
+      "excerpt": "深入了解 React 19 帶來的重大更新和改進",
+      "date": "2025-12-15",
+      "content": "React 19 是 React 團隊發布的最新版本，帶來了許多令人興奮的新特性。本文將深入探討這些新功能，包括改進的並發渲染、新的 Hooks API，以及更好的效能優化。這些更新將幫助開發者建立更快速、更流暢的使用者體驗。"
+    },
+    "post2": {
+      "title": "多語系網站的 SEO 最佳實踐",
+      "excerpt": "學習如何優化多語系網站的搜尋引擎排名",
+      "date": "2025-12-10",
+      "content": "多語系網站的 SEO 優化需要特別注意許多細節。本文將分享如何正確使用 hreflang 標籤、設定 canonical URL、優化每種語言的 meta 描述，以及使用結構化資料來提升搜尋引擎的理解。這些技巧將幫助你的網站在不同語言的搜尋結果中都能獲得良好的排名。"
+    },
+    "post3": {
+      "title": "React Router v7 完整指南",
+      "excerpt": "掌握 React Router v7 的所有功能和用法",
+      "date": "2025-12-05",
+      "content": "React Router v7 帶來了許多改進和新功能。本指南將詳細介紹如何使用新的路由 API、實作巢狀路由、處理動態路由參數，以及優化路由效能。無論你是初學者還是經驗豐富的開發者，這篇文章都能幫助你充分利用 React Router v7 的強大功能。"
+    }
+  },
+  "faq": {
+    "title": "常見問題",
+    "description": "查找常見問題的解答",
+    "metaDescription": "關於我們產品和服務的常見問題解答",
+    "faq1": {
+      "question": "如何切換語言？",
+      "answer": "點擊頁面頂部的語言按鈕即可切換到您想要的語言。系統支援 7 種語言，包括繁體中文、簡體中文、英文、日文、泰文、越南文和韓文。"
+    },
+    "faq2": {
+      "question": "這個專案使用了哪些技術？",
+      "answer": "本專案使用 React 19、React Router v7、i18next 進行多語系管理、react-helmet-async 進行 SEO 優化，以及 Vitest 進行測試。"
+    },
+    "faq3": {
+      "question": "如何優化多語系網站的 SEO？",
+      "answer": "我們使用了多種 SEO 最佳實踐，包括：為每個頁面設定獨特的 meta 標籤、使用 canonical URL、實作結構化資料（JSON-LD），以及為每種語言提供完整的翻譯內容。"
+    },
+    "faq4": {
+      "question": "可以新增更多語言嗎？",
+      "answer": "當然可以！只需要在 i18n/locales 資料夾中新增對應的語言 JSON 檔案，並在 config.js 中更新語言設定即可。系統設計具有良好的擴展性。"
+    }
+  }
+}

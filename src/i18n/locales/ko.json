@@ -1,0 +1,103 @@
+{
+  "common": {
+    "welcome": "환영합니다",
+    "changeLanguage": "언어 변경",
+    "currentLanguage": "현재 언어",
+    "home": "홈",
+    "about": "소개",
+    "contact": "연락처",
+    "products": "제품",
+    "services": "서비스",
+    "blog": "블로그",
+    "faq": "자주 묻는 질문"
+  },
+  "home": {
+    "title": "홈 페이지",
+    "description": "이것은 React 19 + React Router v7 + i18next 데모입니다",
+    "counter": "카운트는 {{count}}",
+    "clickButton": "버튼을 클릭하여 카운트를 증가시키세요",
+    "metaDescription": "React 19, React Router v7 및 i18next로 구축된 다국어 애플리케이션 데모"
+  },
+  "about": {
+    "title": "소개 페이지",
+    "description": "이 프로젝트는 7개 언어를 지원하는 다국어 기능을 보여줍니다",
+    "metaDescription": "7개 언어를 지원하는 다국어 React 애플리케이션에 대해 알아보세요"
+  },
+  "contact": {
+    "title": "연락처 페이지",
+    "description": "문의하기",
+    "metaDescription": "자세한 정보는 문의하세요"
+  },
+  "products": {
+    "title": "제품",
+    "description": "제품 카탈로그 둘러보기",
+    "metaDescription": "완전한 제품 라인업과 솔루션을 살펴보세요",
+    "listTitle": "인기 제품",
+    "product1": "React 개발 툴킷 - 완전한 개발 솔루션",
+    "product2": "다국어 관리 시스템 - 여러 언어를 쉽게 관리",
+    "product3": "SEO 최적화 제품군 - 검색 엔진 순위 향상"
+  },
+  "services": {
+    "title": "서비스",
+    "description": "전문 개발 서비스를 제공합니다",
+    "metaDescription": "전문 웹 개발, 다국어 통합 및 SEO 최적화 서비스",
+    "service1": {
+      "title": "UI/UX 디자인",
+      "description": "아름답고 사용자 친화적인 인터페이스 제작"
+    },
+    "service2": {
+      "title": "프론트엔드 개발",
+      "description": "최신 기술로 고성능 웹 애플리케이션 구축"
+    },
+    "service3": {
+      "title": "모바일 앱 개발",
+      "description": "크로스 플랫폼 모바일 애플리케이션 개발"
+    }
+  },
+  "blog": {
+    "title": "블로그",
+    "description": "최신 기사와 기술 인사이트를 읽어보세요",
+    "metaDescription": "기술 기사, 개발 튜토리얼 및 모범 사례",
+    "backToList": "기사 목록으로 돌아가기",
+    "notFound": "기사를 찾을 수 없습니다",
+    "post1": {
+      "title": "React 19 새로운 기능 소개",
+      "excerpt": "React 19의 주요 업데이트 및 개선 사항에 대해 자세히 알아보기",
+      "date": "2025-12-15",
+      "content": "React 19는 React 팀이 출시한 최신 버전으로 많은 흥미로운 새 기능을 제공합니다. 이 기사에서는 개선된 동시 렌더링, 새로운 Hooks API, 더 나은 성능 최적화를 포함한 이러한 새로운 기능을 자세히 살펴봅니다."
+    },
+    "post2": {
+      "title": "다국어 웹사이트를 위한 SEO 모범 사례",
+      "excerpt": "다국어 사이트의 검색 엔진 순위를 최적화하는 방법 배우기",
+      "date": "2025-12-10",
+      "content": "다국어 웹사이트의 SEO 최적화는 많은 세부 사항에 주의를 기울여야 합니다. 이 기사에서는 hreflang 태그를 올바르게 사용하는 방법, canonical URL 설정, 각 언어에 대한 메타 설명 최적화 및 구조화된 데이터 사용에 대해 공유합니다."
+    },
+    "post3": {
+      "title": "React Router v7 완전 가이드",
+      "excerpt": "React Router v7의 모든 기능과 사용법 마스터하기",
+      "date": "2025-12-05",
+      "content": "React Router v7은 많은 개선 사항과 새로운 기능을 제공합니다. 이 가이드에서는 새로운 라우팅 API 사용 방법, 중첩 라우트 구현, 동적 라우트 매개변수 처리 및 라우팅 성능 최적화에 대해 자세히 설명합니다."
+    }
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "description": "일반적인 질문에 대한 답변 찾기",
+    "metaDescription": "제품 및 서비스에 대한 자주 묻는 질문",
+    "faq1": {
+      "question": "언어를 변경하려면 어떻게 해야 하나요?",
+      "answer": "페이지 상단의 언어 버튼을 클릭하여 원하는 언어로 전환하세요. 시스템은 번체 중국어, 간체 중국어, 영어, 일본어, 태국어, 베트남어 및 한국어를 포함한 7개 언어를 지원합니다."
+    },
+    "faq2": {
+      "question": "이 프로젝트는 어떤 기술을 사용하나요?",
+      "answer": "이 프로젝트는 React 19, React Router v7, 다국어 관리를 위한 i18next, SEO 최적화를 위한 react-helmet-async, 테스트를 위한 Vitest를 사용합니다."
+    },
+    "faq3": {
+      "question": "다국어 웹사이트의 SEO를 최적화하려면 어떻게 해야 하나요?",
+      "answer": "여러 SEO 모범 사례를 사용합니다: 각 페이지에 고유한 메타 태그 설정, canonical URL 사용, 구조화된 데이터(JSON-LD) 구현 및 각 언어에 대한 완전한 번역 콘텐츠 제공."
+    },
+    "faq4": {
+      "question": "더 많은 언어를 추가할 수 있나요?",
+      "answer": "물론입니다! i18n/locales 폴더에 해당 언어 JSON 파일을 추가하고 config.js에서 언어 설정을 업데이트하기만 하면 됩니다. 시스템은 우수한 확장성을 갖추고 설계되었습니다."
+    }
+  }
+}

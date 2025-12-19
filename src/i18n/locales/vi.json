@@ -1,0 +1,103 @@
+{
+  "common": {
+    "welcome": "Chào mừng",
+    "changeLanguage": "Thay đổi ngôn ngữ",
+    "currentLanguage": "Ngôn ngữ hiện tại",
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "products": "Sản phẩm",
+    "services": "Dịch vụ",
+    "blog": "Blog",
+    "faq": "Câu hỏi thường gặp"
+  },
+  "home": {
+    "title": "Trang chủ",
+    "description": "Đây là bản demo React 19 + React Router v7 + i18next",
+    "counter": "Số đếm là {{count}}",
+    "clickButton": "Nhấp vào nút để tăng số đếm",
+    "metaDescription": "Bản demo ứng dụng đa ngôn ngữ được xây dựng với React 19, React Router v7 và i18next"
+  },
+  "about": {
+    "title": "Trang giới thiệu",
+    "description": "Dự án này thể hiện hỗ trợ đa ngôn ngữ với 7 ngôn ngữ",
+    "metaDescription": "Tìm hiểu về ứng dụng React đa ngôn ngữ của chúng tôi hỗ trợ 7 ngôn ngữ"
+  },
+  "contact": {
+    "title": "Trang liên hệ",
+    "description": "Liên hệ với chúng tôi",
+    "metaDescription": "Liên hệ với chúng tôi để biết thêm thông tin"
+  },
+  "products": {
+    "title": "Sản phẩm",
+    "description": "Duyệt danh mục sản phẩm của chúng tôi",
+    "metaDescription": "Khám phá dòng sản phẩm và giải pháp hoàn chỉnh của chúng tôi",
+    "listTitle": "Sản phẩm phổ biến",
+    "product1": "Bộ công cụ phát triển React - Giải pháp phát triển hoàn chỉnh",
+    "product2": "Hệ thống quản lý đa ngôn ngữ - Dễ dàng quản lý nhiều ngôn ngữ",
+    "product3": "Bộ tối ưu hóa SEO - Cải thiện thứ hạng công cụ tìm kiếm"
+  },
+  "services": {
+    "title": "Dịch vụ",
+    "description": "Chúng tôi cung cấp dịch vụ phát triển chuyên nghiệp",
+    "metaDescription": "Dịch vụ phát triển web chuyên nghiệp, tích hợp đa ngôn ngữ và tối ưu hóa SEO",
+    "service1": {
+      "title": "Thiết kế UI/UX",
+      "description": "Tạo giao diện đẹp và thân thiện với người dùng"
+    },
+    "service2": {
+      "title": "Phát triển Frontend",
+      "description": "Xây dựng ứng dụng web hiệu suất cao với công nghệ mới nhất"
+    },
+    "service3": {
+      "title": "Phát triển ứng dụng di động",
+      "description": "Phát triển ứng dụng di động đa nền tảng"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Đọc các bài viết mới nhất và thông tin kỹ thuật của chúng tôi",
+    "metaDescription": "Bài viết kỹ thuật, hướng dẫn phát triển và thực hành tốt nhất",
+    "backToList": "Quay lại danh sách bài viết",
+    "notFound": "Không tìm thấy bài viết",
+    "post1": {
+      "title": "Giới thiệu tính năng mới của React 19",
+      "excerpt": "Tìm hiểu sâu về các cập nhật và cải tiến chính trong React 19",
+      "date": "2025-12-15",
+      "content": "React 19 là phiên bản mới nhất được phát hành bởi nhóm React, mang đến nhiều tính năng mới thú vị. Bài viết này sẽ khám phá những khả năng mới này một cách sâu sắc, bao gồm cải thiện rendering đồng thời, API Hooks mới và tối ưu hóa hiệu suất tốt hơn."
+    },
+    "post2": {
+      "title": "Thực hành tốt nhất về SEO cho website đa ngôn ngữ",
+      "excerpt": "Học cách tối ưu hóa thứ hạng công cụ tìm kiếm cho các trang web đa ngôn ngữ",
+      "date": "2025-12-10",
+      "content": "Tối ưu hóa SEO cho các trang web đa ngôn ngữ đòi hỏi chú ý đến nhiều chi tiết. Bài viết này chia sẻ cách sử dụng thẻ hreflang đúng cách, thiết lập URL canonical, tối ưu hóa mô tả meta cho từng ngôn ngữ và sử dụng dữ liệu có cấu trúc."
+    },
+    "post3": {
+      "title": "Hướng dẫn đầy đủ về React Router v7",
+      "excerpt": "Nắm vững tất cả các tính năng và cách sử dụng React Router v7",
+      "date": "2025-12-05",
+      "content": "React Router v7 mang đến nhiều cải tiến và tính năng mới. Hướng dẫn này sẽ chi tiết về cách sử dụng API định tuyến mới, triển khai các tuyến lồng nhau, xử lý tham số tuyến động và tối ưu hóa hiệu suất định tuyến."
+    }
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "description": "Tìm câu trả lời cho các câu hỏi thường gặp",
+    "metaDescription": "Câu hỏi thường gặp về sản phẩm và dịch vụ của chúng tôi",
+    "faq1": {
+      "question": "Làm thế nào để thay đổi ngôn ngữ?",
+      "answer": "Nhấp vào các nút ngôn ngữ ở đầu trang để chuyển sang ngôn ngữ mong muốn của bạn. Hệ thống hỗ trợ 7 ngôn ngữ, bao gồm Tiếng Trung Phồn thể, Tiếng Trung Giản thể, Tiếng Anh, Tiếng Nhật, Tiếng Thái, Tiếng Việt và Tiếng Hàn."
+    },
+    "faq2": {
+      "question": "Dự án này sử dụng công nghệ gì?",
+      "answer": "Dự án này sử dụng React 19, React Router v7, i18next để quản lý đa ngôn ngữ, react-helmet-async để tối ưu hóa SEO và Vitest để kiểm thử."
+    },
+    "faq3": {
+      "question": "Làm thế nào để tối ưu hóa SEO cho website đa ngôn ngữ?",
+      "answer": "Chúng tôi sử dụng nhiều thực hành tốt nhất về SEO, bao gồm: thiết lập thẻ meta độc đáo cho mỗi trang, sử dụng URL canonical, triển khai dữ liệu có cấu trúc (JSON-LD) và cung cấp nội dung dịch hoàn chỉnh cho mỗi ngôn ngữ."
+    },
+    "faq4": {
+      "question": "Tôi có thể thêm nhiều ngôn ngữ hơn không?",
+      "answer": "Hoàn toàn có thể! Chỉ cần thêm tệp JSON ngôn ngữ tương ứng vào thư mục i18n/locales và cập nhật cài đặt ngôn ngữ trong config.js. Hệ thống được thiết kế với khả năng mở rộng tốt."
+    }
+  }
+}

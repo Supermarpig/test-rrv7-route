@@ -1,0 +1,103 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "changeLanguage": "Change Language",
+    "currentLanguage": "Current Language",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "products": "Products",
+    "services": "Services",
+    "blog": "Blog",
+    "faq": "FAQ"
+  },
+  "home": {
+    "title": "Home Page",
+    "description": "This is a React 19 + React Router v7 + i18next demo",
+    "counter": "Count is {{count}}",
+    "clickButton": "Click the button to increase the count",
+    "metaDescription": "A multilingual application demo built with React 19, React Router v7, and i18next"
+  },
+  "about": {
+    "title": "About Page",
+    "description": "This project demonstrates multi-language support with 7 languages",
+    "metaDescription": "Learn about our multilingual React application supporting 7 languages"
+  },
+  "contact": {
+    "title": "Contact Page",
+    "description": "Get in touch with us",
+    "metaDescription": "Contact us for more information"
+  },
+  "products": {
+    "title": "Products",
+    "description": "Browse our product catalog",
+    "metaDescription": "Explore our complete product range and solutions",
+    "listTitle": "Popular Products",
+    "product1": "React Development Toolkit - Complete development solution",
+    "product2": "Multilingual Management System - Easily manage multiple languages",
+    "product3": "SEO Optimization Suite - Improve search engine rankings"
+  },
+  "services": {
+    "title": "Services",
+    "description": "We provide professional development services",
+    "metaDescription": "Professional web development, multilingual integration, and SEO optimization services",
+    "service1": {
+      "title": "UI/UX Design",
+      "description": "Create beautiful and user-friendly interfaces"
+    },
+    "service2": {
+      "title": "Frontend Development",
+      "description": "Build high-performance web applications with latest technologies"
+    },
+    "service3": {
+      "title": "Mobile App Development",
+      "description": "Cross-platform mobile application development"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Read our latest articles and tech insights",
+    "metaDescription": "Technical articles, development tutorials, and best practices",
+    "backToList": "Back to articles",
+    "notFound": "Article not found",
+    "post1": {
+      "title": "Introduction to React 19 New Features",
+      "excerpt": "Deep dive into the major updates and improvements in React 19",
+      "date": "2025-12-15",
+      "content": "React 19 is the latest version released by the React team, bringing many exciting new features. This article will explore these new capabilities in depth, including improved concurrent rendering, new Hooks API, and better performance optimizations. These updates will help developers build faster and smoother user experiences."
+    },
+    "post2": {
+      "title": "SEO Best Practices for Multilingual Websites",
+      "excerpt": "Learn how to optimize search engine rankings for multilingual sites",
+      "date": "2025-12-10",
+      "content": "SEO optimization for multilingual websites requires attention to many details. This article shares how to properly use hreflang tags, set canonical URLs, optimize meta descriptions for each language, and use structured data to improve search engine understanding. These tips will help your website achieve good rankings in search results across different languages."
+    },
+    "post3": {
+      "title": "Complete Guide to React Router v7",
+      "excerpt": "Master all features and usage of React Router v7",
+      "date": "2025-12-05",
+      "content": "React Router v7 brings many improvements and new features. This guide will detail how to use the new routing API, implement nested routes, handle dynamic route parameters, and optimize routing performance. Whether you're a beginner or experienced developer, this article will help you fully leverage the powerful features of React Router v7."
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "description": "Find answers to common questions",
+    "metaDescription": "Frequently asked questions about our products and services",
+    "faq1": {
+      "question": "How do I change the language?",
+      "answer": "Click the language buttons at the top of the page to switch to your desired language. The system supports 7 languages, including Traditional Chinese, Simplified Chinese, English, Japanese, Thai, Vietnamese, and Korean."
+    },
+    "faq2": {
+      "question": "What technologies does this project use?",
+      "answer": "This project uses React 19, React Router v7, i18next for multilingual management, react-helmet-async for SEO optimization, and Vitest for testing."
+    },
+    "faq3": {
+      "question": "How to optimize SEO for multilingual websites?",
+      "answer": "We use multiple SEO best practices, including: setting unique meta tags for each page, using canonical URLs, implementing structured data (JSON-LD), and providing complete translated content for each language."
+    },
+    "faq4": {
+      "question": "Can I add more languages?",
+      "answer": "Absolutely! Simply add the corresponding language JSON file in the i18n/locales folder and update the language settings in config.js. The system is designed with good extensibility."
+    }
+  }
+}

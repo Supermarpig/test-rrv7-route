@@ -1,0 +1,103 @@
+{
+  "common": {
+    "welcome": "ようこそ",
+    "changeLanguage": "言語を変更",
+    "currentLanguage": "現在の言語",
+    "home": "ホーム",
+    "about": "について",
+    "contact": "お問い合わせ",
+    "products": "製品",
+    "services": "サービス",
+    "blog": "ブログ",
+    "faq": "よくある質問"
+  },
+  "home": {
+    "title": "ホームページ",
+    "description": "これは React 19 + React Router v7 + i18next のデモです",
+    "counter": "カウントは {{count}}",
+    "clickButton": "ボタンをクリックしてカウントを増やす",
+    "metaDescription": "React 19、React Router v7、i18next で構築された多言語アプリケーションのデモ"
+  },
+  "about": {
+    "title": "についてページ",
+    "description": "このプロジェクトは7つの言語をサポートする多言語機能を示しています",
+    "metaDescription": "7つの言語をサポートする多言語 React アプリケーションについて"
+  },
+  "contact": {
+    "title": "お問い合わせページ",
+    "description": "お問い合わせください",
+    "metaDescription": "詳細についてはお問い合わせください"
+  },
+  "products": {
+    "title": "製品",
+    "description": "製品カタログをご覧ください",
+    "metaDescription": "完全な製品ラインナップとソリューションをご覧ください",
+    "listTitle": "人気製品",
+    "product1": "React 開発ツールキット - 完全な開発ソリューション",
+    "product2": "多言語管理システム - 複数の言語を簡単に管理",
+    "product3": "SEO 最適化スイート - 検索エンジンランキングの向上"
+  },
+  "services": {
+    "title": "サービス",
+    "description": "プロフェッショナルな開発サービスを提供します",
+    "metaDescription": "プロフェッショナルなウェブ開発、多言語統合、SEO最適化サービス",
+    "service1": {
+      "title": "UI/UX デザイン",
+      "description": "美しく使いやすいインターフェースを作成"
+    },
+    "service2": {
+      "title": "フロントエンド開発",
+      "description": "最新技術で高性能なウェブアプリケーションを構築"
+    },
+    "service3": {
+      "title": "モバイルアプリ開発",
+      "description": "クロスプラットフォームモバイルアプリケーション開発"
+    }
+  },
+  "blog": {
+    "title": "ブログ",
+    "description": "最新の記事と技術情報をお読みください",
+    "metaDescription": "技術記事、開発チュートリアル、ベストプラクティス",
+    "backToList": "記事一覧に戻る",
+    "notFound": "記事が見つかりません",
+    "post1": {
+      "title": "React 19 新機能の紹介",
+      "excerpt": "React 19 の主要なアップデートと改善点を詳しく解説",
+      "date": "2025-12-15",
+      "content": "React 19 は React チームがリリースした最新バージョンで、多くのエキサイティングな新機能をもたらします。この記事では、改善された並行レンダリング、新しい Hooks API、より良いパフォーマンス最適化など、これらの新機能を詳しく探ります。"
+    },
+    "post2": {
+      "title": "多言語ウェブサイトの SEO ベストプラクティス",
+      "excerpt": "多言語サイトの検索エンジンランキングを最適化する方法を学ぶ",
+      "date": "2025-12-10",
+      "content": "多言語ウェブサイトの SEO 最適化には、多くの詳細に注意を払う必要があります。この記事では、hreflang タグの適切な使用方法、canonical URL の設定、各言語のメタ説明の最適化、構造化データの使用について共有します。"
+    },
+    "post3": {
+      "title": "React Router v7 完全ガイド",
+      "excerpt": "React Router v7 のすべての機能と使用方法をマスター",
+      "date": "2025-12-05",
+      "content": "React Router v7 は多くの改善と新機能をもたらします。このガイドでは、新しいルーティング API の使用方法、ネストされたルートの実装、動的ルートパラメータの処理、ルーティングパフォーマンスの最適化について詳しく説明します。"
+    }
+  },
+  "faq": {
+    "title": "よくある質問",
+    "description": "よくある質問の回答を見つける",
+    "metaDescription": "製品とサービスに関するよくある質問",
+    "faq1": {
+      "question": "言語を変更するにはどうすればよいですか？",
+      "answer": "ページ上部の言語ボタンをクリックして、希望の言語に切り替えてください。システムは繁体字中国語、簡体字中国語、英語、日本語、タイ語、ベトナム語、韓国語の7つの言語をサポートしています。"
+    },
+    "faq2": {
+      "question": "このプロジェクトはどのような技術を使用していますか？",
+      "answer": "このプロジェクトは、React 19、React Router v7、多言語管理のための i18next、SEO 最適化のための react-helmet-async、テストのための Vitest を使用しています。"
+    },
+    "faq3": {
+      "question": "多言語ウェブサイトの SEO を最適化するにはどうすればよいですか？",
+      "answer": "複数の SEO ベストプラクティスを使用しています。各ページに固有のメタタグを設定し、canonical URL を使用し、構造化データ（JSON-LD）を実装し、各言語に完全な翻訳コンテンツを提供しています。"
+    },
+    "faq4": {
+      "question": "さらに多くの言語を追加できますか？",
+      "answer": "もちろんです！i18n/locales フォルダに対応する言語 JSON ファイルを追加し、config.js で言語設定を更新するだけです。システムは優れた拡張性を持って設計されています。"
+    }
+  }
+}
